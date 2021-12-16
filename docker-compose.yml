@@ -3,6 +3,6 @@ services:
   apache:
     build: .
     ports:
-      - "4040:40"
+      - "9090:90"
     volumes:
       - ./src/:/usr/local/apache2/htdocs/
